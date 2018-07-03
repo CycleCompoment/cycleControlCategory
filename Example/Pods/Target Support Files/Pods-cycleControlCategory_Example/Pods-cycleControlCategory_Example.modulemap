@@ -1,0 +1,6 @@
+framework module Pods_cycleControlCategory_Example {
+  umbrella header "Pods-cycleControlCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
