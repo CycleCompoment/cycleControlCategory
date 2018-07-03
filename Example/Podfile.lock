@@ -1,0 +1,16 @@
+PODS:
+  - cycleControlCategory (1.0.0)
+
+DEPENDENCIES:
+  - cycleControlCategory (from `../`)
+
+EXTERNAL SOURCES:
+  cycleControlCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cycleControlCategory: c066c9949ffc0518ab880156bc87d3235dc29450
+
+PODFILE CHECKSUM: 65663c4cdb786efbec4daba88d57cac5ec4ed5c2
+
+COCOAPODS: 1.5.0
