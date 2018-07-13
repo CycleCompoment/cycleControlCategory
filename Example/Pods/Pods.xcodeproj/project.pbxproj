@@ -50,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		008741FDB9CAA6CF28E9766B834DF140 /* UITableView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CycleCreat.m"; sourceTree = "<group>"; };
+		034380A020F8AC9000B22714 /* controlCategoryCreat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controlCategoryCreat.h; sourceTree = "<group>"; };
 		0E0A8211A6D14CDEC94D792F4E54FCC9 /* Pods-cycleControlCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cycleControlCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		18FA486A1C9410F240BEF91D749F6697 /* Pods-cycleControlCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleControlCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1F3D2A97435D5E16AACFFD271E7CDDFE /* Pods-cycleControlCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleControlCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,20 +64,20 @@
 		3273155B09C18B7DC999F9900B230407 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8B906662A996D479B1291801047E28 /* Pods-cycleControlCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cycleControlCategory_Example-dummy.m"; sourceTree = "<group>"; };
 		540796FDCA67293C3C5B4898CBC776C9 /* UILabel+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CycleCreat.m"; sourceTree = "<group>"; };
-		5437DE0C0A0F2657626904628DCD90E8 /* Pods_cycleControlCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cycleControlCategory_Tests.framework; path = "Pods-cycleControlCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5437DE0C0A0F2657626904628DCD90E8 /* Pods_cycleControlCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cycleControlCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B96110BDD32A216DADEEA3782F7343A /* Pods-cycleControlCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cycleControlCategory_Tests.modulemap"; sourceTree = "<group>"; };
 		5BE378889B180723BF97B0CB5ABDDDA3 /* Pods-cycleControlCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleControlCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		62E79AC11AB5939E7F6283D7F294DC98 /* cycleControlCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = cycleControlCategory.framework; path = cycleControlCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E79AC11AB5939E7F6283D7F294DC98 /* cycleControlCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cycleControlCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66DD4AE40B2BEB6E33C0F1D303B759F9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = cycleControlCategory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7180E3DCF17DBDCF18A44D0144E221CA /* UICollectionView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CycleCreat.h"; sourceTree = "<group>"; };
 		758A7429414B47DF9356A18D3813E95C /* UIButton+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CycleCreat.m"; sourceTree = "<group>"; };
 		7643C9F606D1BAAF7B77F41E2BDE9E31 /* UILabel+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CycleCreat.h"; sourceTree = "<group>"; };
-		7779C8ED029EBEA2EC41584E00FC56A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7779C8ED029EBEA2EC41584E00FC56A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7F6E95A3579454B70208C87D8D0FA0E5 /* UICollectionView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CycleCreat.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A93A7D822BA4E93FA5111C9B4FB9781 /* UITextField+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CycleCreat.h"; sourceTree = "<group>"; };
-		9AF86A3C360FC1B0B67942BC0224F985 /* Pods_cycleControlCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cycleControlCategory_Example.framework; path = "Pods-cycleControlCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF86A3C360FC1B0B67942BC0224F985 /* Pods_cycleControlCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cycleControlCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1118C9220B1E8D08998C12C38658B5 /* Pods-cycleControlCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cycleControlCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A083EE855B3A407B46E25E12BA066BD6 /* UITextView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+CycleCreat.h"; sourceTree = "<group>"; };
 		A0D940C13E36E6B6EB9A02FD5368EE61 /* Pods-cycleControlCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cycleControlCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -86,14 +87,14 @@
 		B341F25617D5F0D6EC586B361A006202 /* cycleControlCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cycleControlCategory.modulemap; sourceTree = "<group>"; };
 		B7284FCC0617B3E39E55E187BB70E216 /* cycleControlCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cycleControlCategory-dummy.m"; sourceTree = "<group>"; };
 		BEBF22DA802D5A61FE674886159C61EA /* UITextField+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CycleCreat.m"; sourceTree = "<group>"; };
-		C136AF6646EE299AE5EB9ED855D8C023 /* cycleControlCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = cycleControlCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C136AF6646EE299AE5EB9ED855D8C023 /* cycleControlCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = cycleControlCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5643DEFDC80EE6D82C62673CF86BD91 /* UITextView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CycleCreat.m"; sourceTree = "<group>"; };
 		CCC0761D9CDA3AEA85E68A6C7E531FE5 /* Pods-cycleControlCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleControlCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D5D180206E8D5E6E4AB2E9B22A502C4A /* Pods-cycleControlCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleControlCategory_Example-resources.sh"; sourceTree = "<group>"; };
 		E30D456F021864BB699853A54743A0F6 /* Pods-cycleControlCategory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleControlCategory_Tests-resources.sh"; sourceTree = "<group>"; };
 		EBBF962CA9CB15A8643EED22312C8080 /* Pods-cycleControlCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cycleControlCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EEC2B0F4FF85FDB897B53A8B27B88B79 /* UIButton+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CycleCreat.h"; sourceTree = "<group>"; };
-		EF2CB80B24419D24F32825D35637F51F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF2CB80B24419D24F32825D35637F51F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9981F1583C59CC161B327C8EDD400A8 /* UITableView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+CycleCreat.h"; sourceTree = "<group>"; };
 		FFA695B412E5B2424293CE6D8277B096 /* Pods-cycleControlCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cycleControlCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +174,7 @@
 				BEBF22DA802D5A61FE674886159C61EA /* UITextField+CycleCreat.m */,
 				A083EE855B3A407B46E25E12BA066BD6 /* UITextView+CycleCreat.h */,
 				C5643DEFDC80EE6D82C62673CF86BD91 /* UITextView+CycleCreat.m */,
+				034380A020F8AC9000B22714 /* controlCategoryCreat.h */,
 			);
 			name = controlCategory;
 			path = cycleControlCategory/Classes/controlCategory;
